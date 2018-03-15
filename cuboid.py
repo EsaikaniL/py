@@ -1,0 +1,5 @@
+l=float(input("enter the length:"))
+b=float(input("enter the breadth:"))
+h=float(input("enter the height:"))
+tsa=(2*((l*b)+(b*h)+(l*h)))
+print(tsa,("is the total surface area of cuboid"))
