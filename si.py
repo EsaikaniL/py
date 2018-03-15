@@ -1,0 +1,5 @@
+p=int(input("enter the principle amount:"))
+n=float(input("enter the no. of yr or month:"))
+r=float(input("rate of intrest:"))
+si=((p*n*r)/100)
+print(si)
