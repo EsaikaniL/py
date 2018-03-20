@@ -1,6 +1,5 @@
 def conso(text):
         for i in "aeiouAEIOU":
             text = text.replace(i,"")
-        return text
+        return text[::-1]
 print(conso(input("enter the text:")))
-print(text[::-1])
